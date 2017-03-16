@@ -2,6 +2,7 @@
 
 > Color name generator
 
+<img src="media/screencast.gif" width="580">
 
 ## Install
 
