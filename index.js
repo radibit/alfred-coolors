@@ -6,8 +6,16 @@ const alfredNotifier = require('alfred-notifier');
 
 alfredNotifier();
 
-const colors = colorNamer(alfy.input);
 const results = [];
+let colors = [];
+
+try {
+	colors = colorNamer(alfy.input);
+} catch (err) {
+	results.push({
+		title: 'No color name found 🤔'
+	});
+}
 
 if (colors.ntc) {
 	for (let i = 0; i < 5; i++) {
