@@ -77,7 +77,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Color name generator</string>
+				<string>Get color name</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>

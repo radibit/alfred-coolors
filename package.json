@@ -1,7 +1,7 @@
 {
   "name": "alfred-coolors",
   "version": "0.1.0",
-  "description": "Color name generator",
+  "description": "Get color name",
   "license": "MIT",
   "repository": "radibit/alfred-coolors",
   "author": "Radimir Bitsov <radimir.bitsov@gmail.com>",
@@ -39,6 +39,9 @@
     "xo": "^0.16.0"
   },
   "xo": {
-    "esnext": true
+    "esnext": true,
+    "rules": {
+      "no-multiple-empty-lines": ["error", { "max": 3, "maxEOF": 1 }]
+    }
   }
 }

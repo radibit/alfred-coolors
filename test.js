@@ -7,7 +7,24 @@ test(async t => {
 
 	t.deepEqual(result, [
 		{
-			title: 'Bulgarian Rose'
+			title: 'bulgarian-rose',
+			subtitle: 'approximate match: 100%'
+		},
+		{
+			title: 'rustic-red',
+			subtitle: 'approximate match: 99%'
+		},
+		{
+			title: 'burnt-maroon',
+			subtitle: 'approximate match: 98%'
+		},
+		{
+			title: 'mahogany',
+			subtitle: 'approximate match: 97%'
+		},
+		{
+			title: 'heath',
+			subtitle: 'approximate match: 96%'
 		}
 	]);
 });

@@ -10,13 +10,14 @@ const colors = colorNamer(alfy.input);
 const results = [];
 
 if (colors.ntc) {
-	results.push({
-		title: colors.ntc[0].name
-	});
-} else {
-	results.push({
-		title: 'Unknown color 🤔'
-	});
+	for (let i = 0; i < 5; i++) {
+		results.push({
+			title: colors.ntc[i].name.toLowerCase().replace(/\s/g, '-'),
+			subtitle: 'approximate match: ' + (
+				100 - (parseInt(colors.ntc[i].distance, 10))
+			) + '%'
+		});
+	}
 }
 
 alfy.output(results);
