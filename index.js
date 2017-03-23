@@ -2,9 +2,6 @@
 
 const alfy = require('alfy');
 const colorNamer = require('color-namer');
-const alfredNotifier = require('alfred-notifier');
-
-alfredNotifier();
 
 const results = [];
 let colors = [];

@@ -29,7 +29,6 @@
     "design"
   ],
   "dependencies": {
-    "alfred-notifier": "^0.2.0",
     "alfy": "^0.6.0",
     "color-namer": "^1.1.0"
   },
@@ -41,7 +40,13 @@
   "xo": {
     "esnext": true,
     "rules": {
-      "no-multiple-empty-lines": ["error", { "max": 3, "maxEOF": 1 }]
+      "no-multiple-empty-lines": [
+        "error",
+        {
+          "max": 3,
+          "maxEOF": 1
+        }
+      ]
     }
   }
 }
