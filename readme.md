@@ -17,6 +17,8 @@ $ npm i -g alfred-coolors
 
 In Alfred, type `coolor`, <kbd>Enter</kbd>, and color in HEX format 🎉
 
+Select a color and press <kbd>Enter</kbd> to copy it to the clipboard.
+
 There is also support for HSL, RGB, and RGBA.
 
 Each result contains an approximate match in percentages.

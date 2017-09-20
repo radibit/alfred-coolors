@@ -16,11 +16,14 @@ try {
 
 if (colors.ntc) {
 	for (let i = 0; i < 5; i++) {
+		const colorName = colors.ntc[i].name.toLowerCase().replace(/\s/g, '-');
+
 		results.push({
-			title: colors.ntc[i].name.toLowerCase().replace(/\s/g, '-'),
+			title: colorName,
 			subtitle: 'approximate match: ' + (
 				100 - (parseInt(colors.ntc[i].distance, 10))
-			) + '%'
+			) + '%',
+			arg: colorName
 		});
 	}
 }
