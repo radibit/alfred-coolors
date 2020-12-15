@@ -30,13 +30,13 @@
   ],
   "dependencies": {
     "alfred-notifier": "^0.2.0",
-    "alfy": "^0.6.0",
+    "alfy": "^0.10.0",
     "color-namer": "^1.1.0"
   },
   "devDependencies": {
-    "alfy-test": "^0.3.0",
+    "alfy-test": "^0.4.0",
     "ava": "^0.15.2",
-    "xo": "^0.16.0"
+    "xo": "^0.36.1"
   },
   "xo": {
     "esnext": true,
