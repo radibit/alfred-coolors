@@ -30,7 +30,7 @@
   ],
   "dependencies": {
     "alfred-notifier": "^0.2.0",
-    "alfy": "^0.10.0",
+    "alfy": "^1.1.0",
     "color-namer": "^1.1.0"
   },
   "devDependencies": {
